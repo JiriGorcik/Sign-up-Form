@@ -9,3 +9,49 @@
     src: url("./Fonts/Norse-Bold.otf");
 }
 
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.picture-section {
+    background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 45%;
+    position: relative;
+}
+
+.heading {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    top: 30%;
+}
+
+.heading img {
+    width: 80px;
+}
+
+.heading h1 {
+    font-family: Norse-bold, sans-serif;
+    color: white;
+    font-size: 110px;
+}
+
+.picture-section p {
+    position: relative;
+    top: 82%;
+    text-align: center;
+    color: #cccaca;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+.picture-section p a {
+    color: #cccaca;
+}
