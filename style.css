@@ -82,7 +82,7 @@ form h2 {
 .box {
     border: 1px solid rgb(240, 240, 240);
     box-shadow: 0px 0px 4px gray;
-    padding: 20px 50px;
+    padding: 30px 50px;
 }
 
 .colon {
@@ -111,6 +111,16 @@ input {
 input:focus {
     border: 1px solid blue;
     box-shadow: 0px 0px 4px gray;
+}
+
+.error {
+    border: 1px solid rgb(230, 32, 32);
+}
+
+.password-error {
+    font-size: 14px;
+    color: rgb(230, 32, 32);
+    display: none;
 }
 
 .btn-create-account {
