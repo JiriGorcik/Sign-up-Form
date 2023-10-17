@@ -14,6 +14,8 @@
     height: 100vh;
 }
 
+
+/* Picture Section */
 .picture-section {
     background-image: url("./images/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
@@ -55,3 +57,87 @@
 .picture-section p a {
     color: #cccaca;
 }
+
+/* Form Section */
+.form-text {
+    width: 70%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-bottom: 70px;
+    margin-left: 50px;
+    color: rgb(48, 48, 48);
+}
+
+.form-text h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    padding: 20px 50px;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: 0px 0px 4px gray;
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+    color: rgb(48, 48, 48);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.colon {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    width: 65%;
+    
+}
+
+label {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+input {
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.btn-create-account {
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 50px;
+    margin-top: 30px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #596D48;
+    cursor: pointer;
+}
+
+.btn-create-account:hover {
+    background-color: #658846;
+}
+
+.login {
+    margin-left: 50px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login a {
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login a:active {
+    color: #76aa49;
+}
+
+
+
