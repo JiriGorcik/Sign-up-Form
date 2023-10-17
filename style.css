@@ -21,7 +21,8 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    width: 45%;
+    min-width: 35%;
+    height: 100%;
     position: relative;
 }
 
@@ -59,6 +60,10 @@
 }
 
 /* Form Section */
+.form-section {
+    overflow-y: auto;
+}
+
 .form-text {
     width: 70%;
     font-size: 15px;
@@ -89,8 +94,7 @@ form h2 {
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
-    width: 65%;
-    
+    width: 90%
 }
 
 label {
@@ -143,6 +147,7 @@ input:focus {
 .login {
     margin-left: 50px;
     margin-top: 20px;
+    margin-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
